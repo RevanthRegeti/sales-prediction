@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Sales Prediction</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Sales prediction  </font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center">Enter the values </div></h2>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'>
+          <form method="POST" action="/predict">
+            <div class="form-group">
+              <label for="Item_Identifier"><p class="font-weight-bold">Item_Identifier</p></label>
+              <input type="text" name="Item_Identifier">
+              <small id="NYHelp" class="form-text text-muted"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="Item_Weight"><p class="font-weight-bold">Item_Weight</p></label>
+                <input type="text" name="Item_Weight">
+                <small id="CaliforniaHelp" class="form-text text-muted"></small>
+                </div>
+
+                <div class="form-group">
+                  <label for="Item_Fat_Content"><p class="font-weight-bold">Item_Fat_Content</p></label>
+                  <input type="text" name="Item_Fat_Content">
+                  <small id="FloridaHelp" class="form-text text-muted"></small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Item_Visibility"><p class="font-weight-bold">Item_Visibility</p></label>
+                    <input type="text" name="Item_Visibility">
+                    <small id="RnDSpendHelp" class="form-text text-muted"></small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="Item_Type"><p class="font-weight-bold">Item_Type</p></label>
+                      <input type="text" name="Item_Type">
+                      <small id="AdminSpendHelp" class="form-text text-muted"></small>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="Item_MRP"><p class="font-weight-bold">Item_MRP</p></label>
+                        <input type="text" name="Item_MRP">
+                        <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Outlet_Identifier"><p class="font-weight-bold">Outlet_Identifier</p></label>
+                            <input type="text" name="Outlet_Identifier">
+                            <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Outlet_Establishment_Year"><p class="font-weight-bold">Outlet_Establishment_Year</p></label>
+                                <input type="text" name="Outlet_Establishment_Year">
+                                <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Outlet_Size"><p class="font-weight-bold">Outlet_Size</p></label>
+                                    <input type="text" name="Outlet_Size">
+                                    <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Outlet_Location_Type"><p class="font-weight-bold">Outlet_Location_Type</p></label>
+                                        <input type="text" name="Outlet_Location_Type">
+                                        <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="Outlet_Type"><p class="font-weight-bold">Outlet_Type</p></label>
+                                            <input type="text" name="Outlet_Type">
+                                            <small id="MarketSpendHelp" class="form-text text-muted"></small>
+                                            </div>
+
+                        <input class='btn btn-primary' type='submit' value='Submit'>
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
